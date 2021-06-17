@@ -1,17 +1,6 @@
 $(function(){
-  $('.bg1').on('click',function(){
-    $('.bg1').slideUp();
+  $('.box1').on('click',function(){
+    $(this).slideUp();
   });
-
-  $('.bg2').on('click',function(){
-    $('.bg2').slideUp();
-  });
-
-  $('.bg3').on('click',function(){
-    $('.bg3').slideUp();
-  });
-
-  $('.bg4').on('click',function(){
-    $('.bg4').slideUp();
-  });
-})
+});
+// this:イベントが発生した要素のみ変化
