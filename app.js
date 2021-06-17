@@ -1,8 +1,17 @@
 $(function(){
-  $('.box2').on('click',function(){
-    $('.box2').addClass('box2-ext');
+  $('.bg1').on('click',function(){
+    $('.bg1').slideUp();
   });
-  $('.box2').mouseout(function(){
-    $('.box2').removeClass('box2-ext');
+
+  $('.bg2').on('click',function(){
+    $('.bg2').slideUp();
   });
-});
+
+  $('.bg3').on('click',function(){
+    $('.bg3').slideUp();
+  });
+
+  $('.bg4').on('click',function(){
+    $('.bg4').slideUp();
+  });
+})
