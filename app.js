@@ -1,6 +1,5 @@
 $(function(){
-  $('.box1').on('click',function(){
-    $(this).slideUp();
+  $('button').on('click', function(){
+    $('ul').children().css('color','red');
   });
 });
-// this:イベントが発生した要素のみ変化
